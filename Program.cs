@@ -1,6 +1,5 @@
 ﻿using Students.Entities;
 Console.Clear();
-Console.BackgroundColor=ConsoleColor.White;
 var menuitems = new string[]
 {
     "1-Add Student",
@@ -38,4 +37,3 @@ while (true)
         }
     }
 }
-Console.ResetColor();
